@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+       >
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poemwith"
+                android:gravity="right"
+                android:text="닉네임"
+                android:textColor="#FFBF00"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <EditText
+                android:fontFamily="@font/poemwith"
+                android:id="@+id/name_edt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:layout_marginLeft="15dp"
+                android:inputType="textPersonName"
+                android:hint="이름을 입력하세요" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="#FFBF00"
+                android:gravity="right"
+                android:textSize="18dp"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="나이"
+                android:textStyle="bold"
+                android:fontFamily="@font/poemwith"
+                />
+            <EditText
+                android:id="@+id/age_edt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:fontFamily="@font/poemwith"
+                android:layout_marginLeft="15dp"
+                android:hint="나이를 입력하세요" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/gender"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poemwith"
+                android:gravity="right"
+                android:text="성별"
+                android:textColor="#FFBF00"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/sex_edt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:fontFamily="@font/poemwith"
+                android:layout_marginLeft="15dp"
+                android:hint="성별을 입력하세요" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="#FFBF00"
+                android:fontFamily="@font/poemwith"
+                android:gravity="right"
+                android:textSize="18dp"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="키(cm)" />
+
+            <EditText
+                android:id="@+id/height_edt"
+                android:fontFamily="@font/poemwith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:layout_marginLeft="15dp"
+                android:hint="키" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="#FFBF00"
+                android:fontFamily="@font/poemwith"
+                android:gravity="right"
+                android:textSize="18dp"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="체중(kg)" />
+            <EditText
+                android:id="@+id/weight_edt"
+                android:fontFamily="@font/poemwith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:layout_marginLeft="15dp"
+                android:hint="체중" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="#FFBF00"
+                android:fontFamily="@font/poemwith"
+                android:gravity="right"
+                android:textSize="18dp"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="활동강도" />
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/complete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poemwith"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:background="@drawable/yellow_btn"
+            android:text="입력완료" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

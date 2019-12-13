@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="my_array">
+        <item>활동 적음</item>
+        <item>약간 활동적</item>
+        <item>활동적</item>
+        <item>매우활동적</item>
+    </string-array>
+</resources>

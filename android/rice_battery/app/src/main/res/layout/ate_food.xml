@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/search_edt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="6"
+            android:fontFamily="@font/poemwith"
+            android:inputType="textPersonName"
+            android:hint="음식을 입력해주세요" />
+        <Button
+            android:id="@+id/complete"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/poemwith"
+            android:background="@drawable/yellow_btn"
+            android:textStyle="bold"
+            android:text="입력완료" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/poemwith"
+        android:textFilterEnabled="true">
+
+    </ListView>
+
+
+</LinearLayout>

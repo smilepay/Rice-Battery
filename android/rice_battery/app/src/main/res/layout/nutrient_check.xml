@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+        android:id="@+id/line1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#A4A4A4"
+        />
+        <TextView
+            android:id="@+id/TodayValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="오늘 내 영양소는?"
+            android:fontFamily="@font/poemwith"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="21dp"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:textColor="#FFBF00"
+                android:gravity="right"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poemwith"
+                android:text="에너지(kcal)" />
+            <TextView
+                android:id="@+id/energy_today"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/poemwith"
+                android:hint="열량 확인" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:textColor="#FFBF00"
+                android:gravity="right"
+                android:textSize="18dp"
+                android:layout_width="100dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poemwith"
+                android:text="지방(g)" />
+            <TextView
+                android:id="@+id/fat_today"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/poemwith"
+                android:textStyle="bold"
+                android:hint="지방 확인" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:textColor="#FFBF00"
+                android:gravity="right"
+                android:textSize="17dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poemwith"
+                android:textStyle="bold"
+                android:text="나트륨(mg)" />
+            <TextView
+                android:id="@+id/nat_today"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/poemwith"
+                android:textStyle="bold"
+                android:hint="나트륨 확인" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:textColor="#FFBF00"
+                android:gravity="right"
+                android:textSize="17dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poemwith"
+                android:textStyle="bold"
+                android:text="단백질(g)" />
+            <TextView
+                android:id="@+id/protein_today"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/poemwith"
+                android:textStyle="bold"
+                android:hint="단백질 확인" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:textColor="#FFBF00"
+                android:gravity="right"
+                android:textSize="17dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poemwith"
+                android:textStyle="bold"
+                android:text="탄수화물(g)" />
+            <TextView
+                android:id="@+id/carbo_today"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/poemwith"
+                android:textStyle="bold"
+                android:hint="탄수화물 확인" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

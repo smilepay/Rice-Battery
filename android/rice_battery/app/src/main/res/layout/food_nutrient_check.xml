@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cureentValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="해당음식의 영양소 분석 결과"
+            android:fontFamily="@font/poemwith"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textSize="21dp"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poemwith"
+                android:gravity="right"
+                android:text="식품명"
+                android:textColor="#FFBF00"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poemwith"
+                android:hint="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poemwith"
+                android:gravity="right"
+                android:text="열량"
+                android:textColor="#FFBF00"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/calories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/poemwith"
+                android:hint="" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poemwith"
+                android:gravity="right"
+                android:text="탄수화물"
+                android:textColor="#FFBF00"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/carbs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/poemwith"
+                android:hint="" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poemwith"
+                android:gravity="right"
+                android:text="단백질"
+                android:textColor="#FFBF00"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/poemwith"
+                android:hint="" />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poemwith"
+                android:gravity="right"
+                android:text="지방"
+                android:textColor="#FFBF00"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/fats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/poemwith"
+                android:hint="" />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poemwith"
+                android:gravity="right"
+                android:text="당류"
+                android:textColor="#FFBF00"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/sugars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/poemwith"
+                android:hint="" />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poemwith"
+                android:gravity="right"
+                android:text="나트륨"
+                android:textColor="#FFBF00"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/sod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/poemwith"
+                android:hint="" />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poemwith"
+                android:gravity="right"
+                android:text="콜레스테롤"
+                android:textColor="#FFBF00"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/cho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/poemwith"
+                android:hint="" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

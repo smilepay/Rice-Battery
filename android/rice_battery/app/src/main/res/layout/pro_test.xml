@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/poemwith"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#FFBF00"
+        android:text="내 몸속의 탄수화물"/>
+    <ImageView
+        android:id="@+id/content_1"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+    </ImageView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/poemwith"
+        android:textStyle="bold"
+        android:textColor="#FFBF00"
+        android:text="내 몸속의 단백질"/>
+    <ImageView
+        android:id="@+id/content_2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+    </ImageView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poemwith"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFBF00"
+        android:text="내 몸속의 지방"/>
+    <ImageView
+        android:id="@+id/content_3"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+    </ImageView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poemwith"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFBF00"
+        android:text="내 몸속의 나트륨"/>
+    <ImageView
+        android:id="@+id/content_4"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+    </ImageView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/poemwith"
+        android:textStyle="bold"
+        android:textColor="#FFBF00"
+        android:text="내 몸속의 당류"/>
+    <ImageView
+        android:id="@+id/content_5"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+    </ImageView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poemwith"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFBF00"
+        android:text="내 몸속의 콜레스트롤"/>
+    <ImageView
+        android:id="@+id/content_6"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+    </ImageView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poemwith"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFBF00"
+        android:text="내 몸속의 에너지"/>
+    <ImageView
+        android:id="@+id/content_7"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+    </ImageView>
+
+</LinearLayout>
